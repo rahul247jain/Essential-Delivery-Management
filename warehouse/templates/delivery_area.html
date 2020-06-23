@@ -1,0 +1,9 @@
+<html>
+    {% for ab in waredis %}
+    {% with pro=ab.product %}
+        <p> {{pro.name}}</p>
+        <p> {{ab.quantity}}</p>
+    {% endwith %}
+    {% endfor %}
+    <h1>nhi aara</h1>
+</html>

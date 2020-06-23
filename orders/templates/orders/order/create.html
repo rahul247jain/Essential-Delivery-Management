@@ -73,6 +73,8 @@
                 <p><input type="submit"   class="btn btn-primary btn-lg py-3 btn-block" value="Confirm Order"></p>
                 {% csrf_token %}
               </form>
+                <a href="{% url 'warehouse:searchproducts' %}" ><button class="btn btn-primary btn-lg py-3 btn-block" >Investigate order</button></a>
+
             </div>
           </div>
           <div class="col-md-6">
